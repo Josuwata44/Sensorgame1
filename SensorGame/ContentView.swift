@@ -20,7 +20,7 @@ struct ContentView: View {
             Text(lenticulationManager.nnn)
                 .font(.largeTitle)
             Text(lenticulationManager.nnn)
-                .opacity(lenticulationManager.middleImageOpacity)
+                
                 .font(.largeTitle)
           
             
