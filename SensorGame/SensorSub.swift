@@ -6,7 +6,7 @@
 //
 
 import CoreMotion
-import CoreGraphics
+
 
 class LenticulationManager: ObservableObject {
     
@@ -14,7 +14,7 @@ class LenticulationManager: ObservableObject {
     
     private let motionManager = CMMotionManager()
     
-    private let baseDegrees: CGFloat = 60
+    private let baseDegrees = 60
     
     init() {
         if motionManager.isDeviceMotionAvailable {

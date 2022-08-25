@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @StateObject var lenticulationManager = LenticulationManager()
     let Sound = SoundPlayer()
-    let backGroundColor = LinearGradient(gradient: Gradient(colors: [Color.blue, Color.green]), startPoint: .top, endPoint: .bottom)
+    let backGroundColor = LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: .top, endPoint: .bottom)
 
     var body: some View {
         ZStack {
