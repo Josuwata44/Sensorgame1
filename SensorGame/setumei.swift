@@ -24,7 +24,7 @@ struct setumei: View {
                     .foregroundColor(Color.red)
                 
                   
-            Text("1、まずiphineの画面を上に向けて傾けないように持ってください。")
+            Text("1、まずiphoneの画面を上に向けて傾けないように持ってください。")
                     .foregroundColor(Color.red)
                    
             Text("2、１０秒間の間にその場で一回転回ってもらい傾かなかったら勝ちです。傾いたら負けです")
