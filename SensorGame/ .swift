@@ -10,7 +10,7 @@ import AVFoundation
 
 class SoundPlayer: NSObject {
     
-    let amahaDate = NSDataAsset(name: "ma")!.data
+    let amahaDate = NSDataAsset(name: "pk")!.data
     var amahaPlayer: AVAudioPlayer!
     
     func amahaPlay() {

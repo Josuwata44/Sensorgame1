@@ -13,7 +13,9 @@
 		7F54BC9E28AA110800CBB04F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F54BC9D28AA110800CBB04F /* Preview Assets.xcassets */; };
 		7F54BCA528AA161700CBB04F /* SensorSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54BCA428AA161700CBB04F /* SensorSub.swift */; };
 		7F54BCA728AA163E00CBB04F /* SensorUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F54BCA628AA163E00CBB04F /* SensorUi.swift */; };
-		7FAD9CFD28B0EC7400CF624D /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD9CFC28B0EC7400CF624D /* Sound.swift */; };
+		7FAD9CFD28B0EC7400CF624D /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAD9CFC28B0EC7400CF624D /*  .swift */; };
+		7FEC2DD928C8A7B80060965A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEC2DD828C8A7B80060965A /* SplashView.swift */; };
+		7FF6B69828D21D3C005C8108 /* setumei.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6B69728D21D3C005C8108 /* setumei.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,10 @@
 		7F54BC9D28AA110800CBB04F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F54BCA428AA161700CBB04F /* SensorSub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorSub.swift; sourceTree = "<group>"; };
 		7F54BCA628AA163E00CBB04F /* SensorUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorUi.swift; sourceTree = "<group>"; };
-		7FAD9CFC28B0EC7400CF624D /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		7FAD9CFC28B0EC7400CF624D /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
+		7FEC2DD828C8A7B80060965A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		7FF0DFA528B476BF00345B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7FF6B69728D21D3C005C8108 /* setumei.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setumei.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,10 @@
 			children = (
 				7FF0DFA528B476BF00345B5A /* Info.plist */,
 				7F54BC9628AA110300CBB04F /* SensorGameApp.swift */,
+				7FEC2DD828C8A7B80060965A /* SplashView.swift */,
 				7F54BC9828AA110300CBB04F /* ContentView.swift */,
-				7FAD9CFC28B0EC7400CF624D /* Sound.swift */,
+				7FF6B69728D21D3C005C8108 /* setumei.swift */,
+				7FAD9CFC28B0EC7400CF624D /*  .swift */,
 				7F54BCA428AA161700CBB04F /* SensorSub.swift */,
 				7F54BCA628AA163E00CBB04F /* SensorUi.swift */,
 				7F54BC9A28AA110800CBB04F /* Assets.xcassets */,
@@ -148,11 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FAD9CFD28B0EC7400CF624D /* Sound.swift in Sources */,
+				7FF6B69828D21D3C005C8108 /* setumei.swift in Sources */,
+				7FAD9CFD28B0EC7400CF624D /*  .swift in Sources */,
 				7F54BCA528AA161700CBB04F /* SensorSub.swift in Sources */,
 				7F54BCA728AA163E00CBB04F /* SensorUi.swift in Sources */,
 				7F54BC9928AA110300CBB04F /* ContentView.swift in Sources */,
 				7F54BC9728AA110300CBB04F /* SensorGameApp.swift in Sources */,
+				7FEC2DD928C8A7B80060965A /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

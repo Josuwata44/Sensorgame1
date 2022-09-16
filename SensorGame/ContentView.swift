@@ -8,23 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isActive = false
     
     @StateObject var lenticulationManager = LenticulationManager()
     let Sound = SoundPlayer()
-    let backGroundColor = LinearGradient(gradient: Gradient(colors: [Color.blue, Color.red]), startPoint: .top, endPoint: .bottom)
-
+    
     var body: some View {
         ZStack {
-            backGroundColor.edgesIgnoringSafeArea(.all)
+         Image("bb")
+                .resizable()
+                .frame(width: 1000.0, height: 1000.0)
         VStack {
-            Text(lenticulationManager.nnn)
+            Text("\(lenticulationManager.count)")
+                .foregroundColor(Color.red)
+            Image(lenticulationManager.gazo)
                 .font(.largeTitle)
             Text(lenticulationManager.nnn)
-                
                 .font(.largeTitle)
-          
-            
+                .foregroundColor(Color.red)
         }
+            HStack {
+                
+            }
         }
     }
 }
